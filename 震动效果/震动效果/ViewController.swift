@@ -14,10 +14,10 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         //系统震动
-//        AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
+        AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
         
         //系统声音
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+//         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
         
     }
 
